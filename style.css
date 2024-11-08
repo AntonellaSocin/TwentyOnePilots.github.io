@@ -1,0 +1,198 @@
+header {
+	display:grid;
+	grid-template-rows:100px;
+	background-color: #7cc2ca;
+	margin-bottom:30px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+h1 {
+	text-align:center;
+	color:white;
+	text-decoration: underline;
+	background-color: #517f85;
+}
+h2{
+	color: #284042;
+	background-color: #7cc2ca;
+}
+h2:hover{
+	color: #284042;
+	background-color: #7cc2ca;
+	text-decoration: underline;
+}
+body {
+	background-image: url("topfondo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+footer {
+	display:grid;
+	grid-template-rows:50px;
+	justify-content:center;
+	align-items:center;
+	background-color: #7fc0c7;
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+/*--------------------------------------------------------------------------*/
+.barraNavegacion {
+	display:grid;
+	grid-template-columns:25% 25% 25% 25%;
+	grid-template-rows:50px;
+	margin-left:7%;
+	margin-right:7%;
+	margin-bottom: 5%;
+	justify-content:center;
+	align-items:center;
+	list-style-type:none;
+	background-color: black;
+	border-radius: 20px;
+}
+.formatoOpciones{
+	font-size:18px;
+	text-decoration:none;
+	color: #b7e5eb;
+	font-family: 'Titillium Web', sans-serif;
+}
+.formatoOpciones:hover {
+	color: #284042;
+	font-weight:bold;
+	background-color: #7cc2ca;
+	border-radius: 20px;
+	font-family: 'Titillium Web', sans-serif;
+}
+li {
+   text-align:center;
+}
+/*--------------------------------------------------------------------------*/
+
+.cajaPadreGeneral {
+	display:grid;
+	grid-template-columns:100%;
+	grid-template-rows: 70px 400px 70px 400px 70px 200px;
+	border:2px solid #7cc2ca;
+	background-color: #4f7d82;
+	margin-left:5%;
+	margin-right:5%;
+	border-radius: 10px;
+}
+
+/*--------------------------------------------------------------------------*/
+.cajaPadre1 {
+	display:grid;
+	grid-template-columns:33% 67%;
+	border:2px solid black;
+	margin:10px;
+	border-radius: 20px;
+}
+.cajaPadre2 {
+	display:grid;
+	grid-template-columns:67% 33%;
+	border:2px solid black;
+	margin:10px;
+	border-radius: 20px;
+}
+.cajaPadre3 {
+	display:grid;
+	grid-template-columns:100%;
+	border:2px solid black;
+	margin:10px;
+	border-radius: 20px;
+}
+/*--------------------------------------------------------------------------*/
+
+.cajaHijo331 {
+	border:2px solid black;
+	margin:10px;
+	border-radius: 20px;
+	background-color: black;
+}
+.cajaHijo671 {
+	display:grid;
+	justify-content:center;
+	align-items:center;
+	border:2px solid black;
+	margin:10px;
+	background-color: #8baaad;
+	border-radius: 20px;
+}
+.cajaHijo332 {
+	display:grid;
+	justify-content:center;
+	align-items:center;
+	border:2px solid black;
+	margin:10px;
+	background-color: #8baaad;
+	border-radius: 20px;
+}
+.cajaHijo672 {
+	border:2px solid black;
+	margin:10px;
+	border-radius: 20px;
+	background-color: black;
+}
+.cajaHijo100 {
+	display:grid;
+	justify-content:center;
+	align-items:center;
+	border:2px solid black;
+	margin:10px;
+	background-color: #8baaad;
+	border-radius: 20px;
+}
+/*--------------------------------------------------------------------------*/
+
+a{
+	text-align:center;
+	font-size:18px;
+	font-family:sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+
+.textFooter {
+	text-align:center;
+	font-size:18px;
+	font-family:sans-serif;
+}
+
+/*--------------------------------------------------------------------------*/
+.raleway{
+	font-family: 'Raleway', sans-serif;
+}
+.parrafo{
+	font-family: 'Raleway', sans-serif;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: justify;
+}
+.playfair{
+	font-family: 'Playfair Display', serif;
+	padding: 0px 100px 30px 100px;
+	text-align: center;
+	font-size: 20px;
+	color: #182729;
+}
+/*--------------------------------------------------------------------------*/
+.logodibujo{
+	display: grid;
+	margin-bottom: 20px;
+	margin-left: 430px;
+	width: 300px;
+	height: 300px;
+	
+}
+.imagen{
+	width: 351px;
+	height: 350px;
+	border-radius: 20px;
+}
+/*--------------------------------------------------------------------------*/

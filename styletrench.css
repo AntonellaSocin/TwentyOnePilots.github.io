@@ -1,0 +1,178 @@
+header {
+	display:grid;
+	grid-template-rows:100px;
+	background-color: #8d9113;
+	margin-bottom:30px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+h1 {
+	text-align:center;
+	color: yellow;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: underline;
+}
+h2{
+	color: black;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: 'Raleway', sans-serif;
+}
+h2:hover{
+	text-decoration: underline;
+}
+body {
+	background-image: url("trench.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+footer {
+	display:grid;
+	grid-template-rows:50px;
+	justify-content:center;
+	align-items:center;
+	background-color:#3b3d01;
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+/*--------------------------------------------------------------------------*/
+.barraNavegacion {
+	display:grid;
+	grid-template-columns:50% 50%;
+	grid-template-rows:50px;
+	margin-left:7%;
+	margin-right:7%;
+	margin-bottom: 5%;
+	justify-content:center;
+	align-items:center;
+	list-style-type:none;
+	background-color: black;
+	border-radius: 20px;
+}
+.formatoOpciones{
+	font-size:18px;
+	text-decoration:none;
+	color: yellow;
+	font-family: 'Titillium Web', sans-serif;
+}
+.formatoOpciones:hover {
+	color: black;
+	font-weight:bold;
+	background-color: yellow;
+	border-radius: 20px;
+	font-family: 'Titillium Web', sans-serif;
+}
+li {
+   text-align:center;
+}
+/*--------------------------------------------------------------------------*/
+
+.cajaPadreGeneral {
+	display:grid;
+	grid-template-columns:100%;
+	grid-template-rows: 400px 400px ;
+	border:2px solid yellow;
+	background-color:black;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+
+/*--------------------------------------------------------------------------*/
+.cajaPadre1 {
+	display:grid;
+	grid-template-columns:33% 67%;
+	border:2px solid yellow;
+	margin:10px;
+}
+.cajaPadre2 {
+	display:grid;
+	grid-template-columns:67% 33%;
+	border:2px solid yellow;
+	margin:10px;
+}
+.cajaPadre3 {
+	display:grid;
+	grid-template-columns:100%;
+	border:2px solid yellow;
+	margin:10px;
+}
+/*--------------------------------------------------------------------------*/
+.cajaHijo331 {
+	border:2px solid yellow;
+	margin:10px;
+	background-color: black;
+}
+.cajaHijo671 {
+	display:grid;
+	justify-content:center;
+	align-items:center;
+	border:2px solid yellow;
+	margin:10px;
+	background-color: #a3a64b;
+}
+.cajaHijo332 {
+	border:2px solid yellow;
+	margin:10px;
+	background-color: black;
+}
+.cajaHijo672 {
+	display:grid;
+	justify-content:center;
+	align-items:center;
+	border:2px solid yellow;
+	margin:10px;
+	background-color: #a3a64b;
+}
+.cajaHijo100 {
+	display:grid;
+	justify-content:center;
+	align-items:center;
+	border:2px solid yellow;
+	margin:10px;
+	background-color: #a3a64b;
+}
+/*--------------------------------------------------------------------------*/
+a{
+	text-align:center;
+	font-size:18px;
+	font-family:sans-serif;
+	text-decoration: none;
+	color: black;
+}
+.album{
+	text-decoration: underline;
+	font-size: 25px;
+}
+.textFooter {
+	text-align:center;
+	font-size:18px;
+	font-family:sans-serif;
+}
+
+/*--------------------------------------------------------------------------*/
+.raleway{
+	font-family: 'Raleway', sans-serif;
+}
+.parrafo{
+	font-family: 'Raleway', sans-serif;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: justify;
+	font-size: 16px;
+}
+/*--------------------------------------------------------------------------*/
+.imagen{
+	width: 351px;
+	height: 350px;
+}
+.video {
+	text-align:center;
+	margin:30px;
+}
